@@ -1,19 +1,14 @@
 /* selector universal */
 
 
-/* Selector universal*/
-* {
-background-image: url(https://media.istockphoto.com/photos/soil-texture-background-picture-id503114403?k=6&m=503114403&s=612x612&w=0&h=ablvaJllKgjArKV8uQdCKQkx_FTqkrZFTk02AgPnuQY=);
-cro
-align-content: center;
-}
+
 
 /* Selector por tipo */
-h1{
+h1 {
     color: whitesmoke;
     font-size: xx-large;
-    align-content: center;
-    background-color: blueviolet;
+    text-align: center;
+    background-color: yellowgreen;
 }
 
 p {
@@ -24,12 +19,13 @@ p {
 #tituloSegundo {
 color: green;
 font-size: x-large;
-align-items: center;
+text-align: center;
 border-radius: 2rem;
-}
+}       
 
 /* Selector por Class */
 .parrafouno{
+    color: black;
     font-style: italic, monospace;
     font-size: larger;
     border-style: dotted;
@@ -38,6 +34,11 @@ border-radius: 2rem;
     align-content: stretch;
 }
 
-.navegador {
-    color: whitesmoke;
+nav {
+    color: black;
+    text-align: center;
+}
+
+.listadoVentajas {
+    text-align: center;
 }
