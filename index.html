@@ -8,20 +8,22 @@
     <title>Organic Product's Store</title>
 </head>
 <body>
+    <div class="logoEslogan"> <img src="./Organic-Product-Store/logoEslogan.jpg" alt="Eslogan y marca">
+    </div>
     <div >
     <header>
-        <nav>
+        <nav class="navBar">
             <ul>
-                <li>
+                <li class="linesHome">
                     <a href="./quienes_somos.html">¿Quiénes somos?</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./Productos.html">Productos</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./que_es_organico.html">¿Qué es organico y la acuaponia?</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./index.html">Home</a>
                 </li>
             </ul>
@@ -35,31 +37,24 @@
         <section>
             <h1>¿Por qué comprarnos?</h1>
             <div class="segundaImagen">
-            <img class="imagenLogo" src="./logoOrgánico.jpeg" alt="Logos de certificados orgánicos">
             </div>
-            <p class="parrafouno">Los productos orgánicos hacen referencia a productos 100% a una cadena de suministro que asegure 
-                un proceso "natural". Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi corrupti delectus quis, ut obcaecati, animi illo neque harum a architecto possimus enim nihil dicta esse dolore nostrum modi odit.</p>
+            <p class="parrafouno">Se denomina alimento orgánico, alimento ecológico, o alimento biológico al producto agrícola o agroindustrial que se produce bajo un conjunto de procedimientos denominados “ecológicos”. En general, los métodos ecológicos evitan el uso de productos sintéticos, como pesticidas, herbicidas y fertilizantes artificiales.</p>
+            <p class="parrafouno">Fuente: https://es.wikipedia.org/wiki/Alimento_org%C3%A1nico#:~:text=Se%20denomina%20alimento%20org%C3%A1nico%2C%20alimento%20ecol%C3%B3gico%2C%20%5B.%201.,sint%C3%A9ticos%2C%20como%20pesticidas%2C%20herbicidas%20y%20fertilizantes%20artificiales%20.</p>
             </section>
             <section>
                 <h2 id="tituloSegundo">Ventajas de comer orgánico</h2>
-                <ol>
+                <ol class="numeracion">
                     <li class="listadoVentajas">Mejora calidad de vida</li>
                     <li class="listadoVentajas">Mejor absorción de nutrientes</li>
                     <li class="listadoVentajas">Productos ecofriendly</li>
                 </ol>
-            </section>
-            <aside>
-                <img src="./cicloOrgánico.jpg"" alt="ciclo orgánico">
-            </aside>
+            </section>           
             <h3>Si quieres saber mas sobre nosotros llena el siguiente formulario</h3>
             <form>
-                <label for="">Nombre (s) de quien solicita</label>
-                <input type="text" name="" id="" required>
-                <label for="">Apellidos</label>
-                <input type="text" name="" id="" required>
-                <label for="">Edad</label>
-                <input type="number" name="" id="" required>
-                <input type="email" name="" id="" placeholder="Agrega tu email" required>
+                <input type="text" name="" id="" required placeholder="Nombre (s) de quien solicita" class="primerFormulario">
+                <input type="text" name="" id="" required placeholder="Apellidos" class="primerFormulario">  
+                <input type="number" name="" id="" required placeholder="Edad" class="primerFormulario">
+                <input type="email" name="" id="" placeholder="Agrega tu email" required class="primerFormulario">
                 <input type="submit" value="Enviar datos">
                 <div>
                     <h2>¿Deseas invertir activos con nosotros?</h2>
@@ -73,7 +68,7 @@
                 <div>
                     <h3>Medios de pago</h3>
                     <label for="">Transferencia</label>
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="Transferencia" id="">
                     <label for="">Cheques</label>
                     <input type="checkbox" name="" id="">
                     <label for="">Bonos</label>
@@ -81,7 +76,7 @@
                 </div>
                 <div>
                     <h3>Tipo de contacto</h3>
-                    <select name="" id="">
+                    <select name="Tipo de contacto" id="">
                         <option value="Directo">Directo</option>
                         <option value="Hibrido">Hibrido</option>
                         <option value="OnLine">OnLine</option>

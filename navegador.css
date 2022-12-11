@@ -1,30 +1,36 @@
 /* selector universal */
 
-
-
-
 /* Selector por tipo */
 h1 {
     color: whitesmoke;
     font-size: xx-large;
     text-align: center;
     background-color: yellowgreen;
+    width: 1317px;
 }
 
 p {
     color: whitesmoke;
+    z-index: -1;
+    background-color: burlywood;
+    width: 1317px;
 }
 
 /* Selector por ID */
+.primerFormulario {
+    text-align: center;
+}
+
 #tituloSegundo {
-color: green;
+color: whitesmoke;
 font-size: x-large;
 text-align: center;
-border-radius: 2rem;
+background-color: yellowgreen;
 }       
 
 /* Selector por Class */
 .parrafouno{
+    display: inline-block;
     color: black;
     font-style: italic, monospace;
     font-size: larger;
@@ -32,13 +38,78 @@ border-radius: 2rem;
     border: black;
     border-bottom: 2rem;
     align-content: stretch;
+
 }
 
-nav {
-    color: black;
+img {
+    max-width: 100%;
+    min-width: 100%;
+
+}
+
+.logoEslogan {
+    position: sticky;
+    top: 1px;
+    left: 1500px;
+    height: 30px;
+    width: 100px;
+    z-index: -2;
+}
+
+.navBar {
+    height: 50px;
+    width: 1232px;
+    background-color: yellowgreen;
     text-align: center;
+    z-index: -1;
+}
+
+.navBar a {
+    color: yellow;
+    font-size: 25px;
+    border: 2px;
+    border-style: dashed;
+    border-radius: 20%;
+    border-color: black;
+    align-items: center;
+}
+    
+
+.linesHome {
+    display: inline;
+}
+
+.linesHome:hover {
+    background-color: green;
+    border: 2px;
+    border-style: double;   
+    border-radius: 40%;
+    border-color: black;
+}
+
+.numeracion {
+    background-color: burlywood;
 }
 
 .listadoVentajas {
     text-align: center;
+    background-color: burlywood;
+    width: 1300px;
+}
+
+.imagenPrimera {
+    margin-top: 5px;
+    padding-left: 0px;
+    position: sticky;
+    top: 1px ; left: 25px;
+    opacity: 0.90;
+    height: 500px;
+    width: 1300px;
+    z-index: -3;
+}   
+
+footer {
+    margin-top: 30 px;
+    position: sticky;
+    background-color: antiquewhite;
 }
