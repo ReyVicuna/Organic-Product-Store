@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./navegador.css">
     <title>¿Qué es organico..?</title>
 </head>
 <body>
+    <div class="logoEslogan"> 
+        <img src="./Organic-Product-Store/logoEslogan.jpg" alt="Eslogan y marca">
+        <p>Mejor precio..., mejor calidad..., mejor salud.</p>
+    </div>
     <header>
-        <nav>
+        <section id="fijarNav">
+        <nav class="navBar">
             <ul>
-                <li>
-                    <a href="./quienes_somos.html">¿Quiénes somos?</a>
+                <li class="linesHome">
+                    <a href="./quienes_somos.html">¿Quiénes somos y cómo encontrarnos?</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./Productos.html">Productos</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./que_es_organico.html">¿Qué es organico y la acuaponia?</a>
                 </li>
-                <li>
+                <li class="linesHome">
                     <a href="./index.html">Home</a>
                 </li>
             </ul>
         </nav>
-    </header> 
+        </section>
+    </header>
+    <div class="imagenPrimera">
+        <img src="./Logo.jpeg" alt="Logo">
+    </div>
     <main>
-        <h2>Video introductorio</h2>
-        <h3>¿Qué es un "Producto Orgánico"?</h3>
+        <h2 id="videoIntroductorio">Video introductorio</h2>
+        <h3 id="productoOrgánico">¿Qué es un "Producto Orgánico"?</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/GoJvOhA3P2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
-        <p>Este video se comparte con la finalidad de que quede claro el por qué la importancia de lo "Orgánico"</p>
+        <aside id="mensajeSponsor1">Este video se comparte con la finalidad de que quede claro el por qué la importancia de lo "Orgánico"</aside>
         <div>
-            <h2>Video desarrollo</h2>
-            <h3>¿Qué es acuaponia y por qué es la mejor opción de cultivo?</h3>
+            <h2 id="videoAcuaponia">Video desarrollo</h2>
+            <h3 id="quéesAcuaponia">¿Qué es acuaponia y por qué es la mejor opción de cultivo?</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/obSbCJhoBHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>¿Qué piensas ahora acerca de cultivar Productos Orgánicos con este método de cultivo sustentable?</p>
+            <aside id="quépiensas">¿Qué piensas ahora acerca de cultivar Productos Orgánicos con este método de cultivo sustentable?</aside> 
         </div>
     </main>
     <footer>Todos los derechos reservados©</footer>
